@@ -40,13 +40,13 @@ The project implements lexical analysis and parsing for a simple programming lan
 <a id="features"></a>
 ## ✨ Features
 
-- 🔍 **Lexical Analysis:** Tokenization, keyword and literal recognition, comment handling, and error detection.
+-  **Lexical Analysis:** Tokenization, keyword and literal recognition, comment handling, and error detection.
 
-- 🧩 **Syntax Analysis:** Parsing variables, functions, classes, conditions, loops, and arithmetic expressions.
+-  **Syntax Analysis:** Parsing variables, functions, classes, conditions, loops, and arithmetic expressions.
 
-- 🌳 **Abstract Syntax Tree (AST):** Tree generation, visualization, and integer expression evaluation.
+-  **Abstract Syntax Tree (AST):** Tree generation, visualization, and integer expression evaluation.
 
-- 🛡️ **Semantic Analysis:** Scope management, duplicate declaration detection, function validation, and basic type checking.
+-  **Semantic Analysis:** Scope management, duplicate declaration detection, function validation, and basic type checking.
 
 ---
 
