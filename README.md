@@ -1,3 +1,22 @@
+
+<div align="center">
+
+# 🌊 Sea Compiler
+
+### A Java-Based Compiler Design Project
+
+![Java](https://img.shields.io/badge/Language-Java-orange)
+![Compiler](https://img.shields.io/badge/Project-Compiler_Design-blue)
+![AST](https://img.shields.io/badge/Feature-AST-purple)
+![Lexer](https://img.shields.io/badge/Feature-Lexical_Analysis-green)
+![Semantic](https://img.shields.io/badge/Feature-Semantic_Analysis-teal)
+
+A Java-based compiler featuring **lexical analysis, parsing,
+abstract syntax trees (ASTs), and basic semantic analysis.**
+
+</div>
+
+---
 # Sea Compiler
 
 Sea Compiler is a Java-based compiler design project developed as a university project for the Compiler Design course.
