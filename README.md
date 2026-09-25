@@ -15,17 +15,20 @@ abstract syntax trees (ASTs), and basic semantic analysis.**
 </div>
 
 
+
 ## 📑 Table of Contents
 
-- [Overview](#-overview)
-- [Features](#features)
-- [Compiler Architecture](#️-compiler-architecture)
-- [Demo & Screenshots](#-demo--screenshots)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [Technologies](#technologies)
+- [🚀 Overview](#-overview)
+- [✨ Features](#-features)
+- [🏗️ Compiler Architecture](#️-compiler-architecture)
+- [🖥️ Demo & Screenshots](#️-demo--screenshots)
+- [📂 Project Structure](#-project-structure)
+- [⚙️ Installation & Usage](#️-installation--usage)
+- [🛠️ Technologies](#️-technologies)
+- [📌 About](#-about)
 
 ---
+
 
 ## 🚀 Overview
 Sea Compiler is a Java-based compiler design project developed as a university project for the Compiler Design course.
@@ -160,14 +163,19 @@ The interface includes:
 
 
 
-## Project Structure
+
+## 📂 Project Structure
 
 ```text
-SeaCompiler/
+Sea-Compiler/
+│
 ├── input.sea
+├── README.md
+│
 └── src/
     └── compiler/
         ├── ASTNode.java
+        ├── ASTVisualizer.java
         ├── BinaryOpNode.java
         ├── ExpressionNode.java
         ├── Lexer.java
@@ -175,10 +183,12 @@ SeaCompiler/
         ├── NumberNode.java
         ├── Parser.java
         ├── ParserMain.java
+        ├── SeaCompilerGUI.java
         ├── Token.java
         └── TokenType.java
-
 ```
+
+
 
 ## Running the Project
 
