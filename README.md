@@ -21,7 +21,7 @@ abstract syntax trees (ASTs), and basic semantic analysis.**
 
 - [Overview](#-overview)
 - [Features](#features)
-- [Compiler Architecture](#-compiler-architecture)
+- [Compiler Architecture](#️-compiler-architecture)
 - [Demo & Screenshots](#-demo--screenshots)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
@@ -30,15 +30,39 @@ abstract syntax trees (ASTs), and basic semantic analysis.**
 ---
 
 ## 🚀 Overview
-
----
-# Sea Compiler
-
 Sea Compiler is a Java-based compiler design project developed as a university project for the Compiler Design course.
 
 The project implements lexical analysis and parsing for a simple programming language using `.sea` source files. It can tokenize source code, recognize different language constructs, build abstract syntax trees (ASTs) for arithmetic expressions, and perform several basic semantic checks.
 
-## Features
+
+## ✨ Features
+
+- 🔍 **Lexical Analysis:** Tokenization, keyword and literal recognition, comment handling, and error detection.
+
+- 🧩 **Syntax Analysis:** Parsing variables, functions, classes, conditions, loops, and arithmetic expressions.
+
+- 🌳 **Abstract Syntax Tree (AST):** Tree generation, visualization, and integer expression evaluation.
+
+- 🛡️ **Semantic Analysis:** Scope management, duplicate declaration detection, function validation, and basic type checking.
+
+---
+
+## 🏗️ Compiler Architecture
+
+Sea Compiler processes `.sea` source files through lexical analysis, parsing, AST generation, and basic semantic checks.
+
+```mermaid
+flowchart TD
+    A["Source Code (.sea)"] --> B["Lexical Analysis"]
+    B --> C["Token Stream"]
+    C --> D["Syntax Analysis"]
+    D --> E["AST Generation"]
+    E --> F["Basic Semantic Checks"]
+    F --> G["Console Output"]
+```
+
+---
+
 
 ### Lexical Analysis
 
