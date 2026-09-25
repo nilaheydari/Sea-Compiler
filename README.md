@@ -22,36 +22,35 @@ graphical interface.
 
 <br>
 
-[**Explore the Demo**](#️-demo--screenshots) •
-[**Get Started**](#️-installation--usage)
-
+[**Explore the Demo**](#demo) •
+[**Get Started**](#installation)
 </div>
 
 ---
 
 
-
-
 ## 📑 Table of Contents
 
-- [🚀 Overview](#-overview)
-- [✨ Features](#-features)
-- [🏗️ Compiler Architecture](#️-compiler-architecture)
-- [🖥️ Demo & Screenshots](#️-demo--screenshots)
-- [📂 Project Structure](#-project-structure)
-- [⚙️ Installation & Usage](#️-installation--usage)
-- [🛠️ Technologies](#️-technologies)
-- [📌 About](#-about)
+- [Overview](#overview)
+- [Features](#features)
+- [Compiler Architecture](#architecture)
+- [Demo & Screenshots](#demo)
+- [Project Structure](#structure)
+- [Installation & Usage](#installation)
+- [Technologies](#technologies)
+- [About](#about)
 
 ---
 
+
+<a id="overview"></a>
 
 ## 🚀 Overview
 Sea Compiler is a Java-based compiler design project developed as a university project for the Compiler Design course.
 
 The project implements lexical analysis and parsing for a simple programming language using `.sea` source files. It can tokenize source code, recognize different language constructs, build abstract syntax trees (ASTs) for arithmetic expressions, and perform several basic semantic checks.
 
-
+<a id="features"></a>
 ## ✨ Features
 
 - 🔍 **Lexical Analysis:** Tokenization, keyword and literal recognition, comment handling, and error detection.
@@ -65,22 +64,37 @@ The project implements lexical analysis and parsing for a simple programming lan
 ---
 
 
+<a id="architecture"></a>
 
 ## 🏗️ Compiler Architecture
 
-Sea Compiler processes `.sea` source files through multiple compilation stages.
+Sea Compiler processes `.sea` source code through lexical analysis and parsing, performs basic semantic checks, and generates abstract syntax trees for arithmetic expressions.
 
 ```mermaid
-flowchart LR
-    A["Source Code"] --> B["Lexer"]
-    B --> C["Tokens"]
+flowchart TD
+    A["Sea Source Code (.sea)"] --> B["Lexical Analyzer"]
+    B --> C["Token Stream"]
     C --> D["Parser"]
-    D --> E["AST"]
-    E --> F["Semantic Checks"]
-    F --> G["Output"]
+
+    D --> E["Basic Semantic Checks"]
+    D --> F["Arithmetic Expression AST"]
+
+    F --> G["Expression Evaluation"]
+
+    E --> H["Compiler Output"]
+    G --> H
+
+    classDef source fill:#DCEEFF,stroke:#4682B4,color:#17324D
+    classDef process fill:#E0F5F2,stroke:#299D91,color:#17324D
+    classDef ast fill:#EEE7FF,stroke:#8767C7,color:#342458
+
+    class A source
+    class B,C,D,E,H process
+    class F,G ast
 ```
 
 ---
+
 
 
 
@@ -162,7 +176,7 @@ The parser performs several basic semantic checks, including:
 
 
 ---
-
+<a id="demo"></a>
 ## 🖥️ Demo & Screenshots
 
 Sea Compiler Studio provides a graphical interface for exploring the compilation process.
@@ -179,7 +193,7 @@ The interface includes:
 
 
 
-
+<a id="structure"></a>
 ## 📂 Project Structure
 
 ```text
@@ -187,6 +201,7 @@ Sea-Compiler/
 │
 ├── input.sea
 ├── README.md
+├── sea-compiler-demo.png
 │
 └── src/
     └── compiler/
@@ -206,7 +221,7 @@ Sea-Compiler/
 
 
 
-
+<a id="installation"></a>
 ## ⚙️ Installation & Usage
 
 ### Prerequisites
@@ -282,7 +297,7 @@ The generated AST can also be explored in the graphical interface.
 ---
 
 
-
+<a id="technologies"></a>
 ## 🛠️ Technologies
 
 ### Languages & Tools
@@ -307,7 +322,7 @@ The generated AST can also be explored in the graphical interface.
 
 ---
 
-
+<a id="about"></a>
 ## 📌 About
 
 Sea Compiler is a university project developed for the
