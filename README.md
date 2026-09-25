@@ -266,15 +266,31 @@ The generated AST can also be explored in the graphical interface.
 ---
 
 
-## Technologies
 
-- Java
-- Object-Oriented Programming
-- Lexical Analysis
-- Parsing
-- Abstract Syntax Trees
+## 🛠️ Technologies
+
+### Languages & Tools
+
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Java_Swing-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java Swing">
+  <img src="https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ IDEA">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</p>
+
+### Core Concepts
+
+- Object-Oriented Programming (OOP)
+- Lexical Analysis & Tokenization
+- Recursive-Descent Parsing
+- Abstract Syntax Trees (AST)
+- Arithmetic Expression Evaluation
 - Basic Semantic Analysis
-- IntelliJ IDEA
+- Graphical User Interface (Java Swing)
+
+---
+
 
 ## About
 
