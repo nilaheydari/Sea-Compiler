@@ -3,8 +3,6 @@
 
 # 🌊 Sea Compiler
 
-### A Java-Based Compiler Design Project
-
 ![Java](https://img.shields.io/badge/Language-Java-orange)
 ![Compiler](https://img.shields.io/badge/Project-Compiler_Design-blue)
 ![AST](https://img.shields.io/badge/Feature-AST-purple)
