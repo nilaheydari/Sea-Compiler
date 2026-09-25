@@ -16,6 +16,21 @@ abstract syntax trees (ASTs), and basic semantic analysis.**
 
 </div>
 
+
+## 📑 Table of Contents
+
+- [Overview](#-overview)
+- [Features](#features)
+- [Compiler Architecture](#-compiler-architecture)
+- [Demo & Screenshots](#-demo--screenshots)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Technologies](#technologies)
+
+---
+
+## 🚀 Overview
+
 ---
 # Sea Compiler
 
