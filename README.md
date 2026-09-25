@@ -140,6 +140,26 @@ The parser performs several basic semantic checks, including:
 - Basic scope management
 - Basic circular class dependency detection
 
+
+
+---
+
+## 🖥️ Demo & Screenshots
+
+Sea Compiler Studio provides a graphical interface for exploring the compilation process.
+
+![Sea Compiler Studio](sea-compiler-demo.png)
+
+The interface includes:
+- **Source Editor:** Write and edit `.sea` source code.
+- **Token Inspector:** View tokens with their types, values, line numbers, and column positions.
+- **AST Visualizer:** Explore the generated abstract syntax tree.
+- **Compiler Output:** View parsing results and expression evaluation.
+
+---
+
+
+
 ## Project Structure
 
 ```text
@@ -157,6 +177,7 @@ SeaCompiler/
         ├── ParserMain.java
         ├── Token.java
         └── TokenType.java
+
 ```
 
 ## Running the Project
