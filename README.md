@@ -308,6 +308,28 @@ The generated AST can also be explored in the graphical interface.
 ---
 
 
-## About
+## 📌 About
 
-This project was developed as a university Compiler Design project to practice the fundamental stages of compiler construction, including lexical analysis, parsing, abstract syntax tree generation, expression evaluation, scope handling, and basic semantic analysis.
+Sea Compiler is a university project developed for the
+**Compiler Design** course.
+
+The project aims to demonstrate the fundamental stages
+of compiler construction through a Java implementation.
+
+In addition to command-line execution, Sea Compiler Studio
+provides an interactive graphical interface that makes it
+easier to explore tokenization, parsing, AST generation,
+and arithmetic expression evaluation.
+
+---
+
+<div align="center">
+
+**🌊 Sea Compiler**
+
+*From source code to syntax trees.*
+
+Developed with Java.
+
+</div>
+
