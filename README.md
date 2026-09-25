@@ -3,16 +3,32 @@
 
 # 🌊 Sea Compiler
 
-![Java](https://img.shields.io/badge/Language-Java-orange)
-![Compiler](https://img.shields.io/badge/Project-Compiler_Design-blue)
-![AST](https://img.shields.io/badge/Feature-AST-purple)
-![Lexer](https://img.shields.io/badge/Feature-Lexical_Analysis-green)
-![Semantic](https://img.shields.io/badge/Feature-Semantic_Analysis-teal)
+### A Java-Based Compiler with Interactive AST Visualization
 
-A Java-based compiler featuring **lexical analysis, parsing,
+<br>
+
+![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Compiler](https://img.shields.io/badge/Compiler-Design-0077B6?style=for-the-badge)
+![GUI](https://img.shields.io/badge/GUI-Java_Swing-00A6A6?style=for-the-badge)
+![AST](https://img.shields.io/badge/AST-Visualization-7353BA?style=for-the-badge)
+
+<br>
+
+A compiler design project featuring **lexical analysis, parsing,  
 abstract syntax trees (ASTs), and basic semantic analysis.**
 
+Explore the compilation process through an interactive
+graphical interface.
+
+<br>
+
+[**Explore the Demo**](#️-demo--screenshots) •
+[**Get Started**](#️-installation--usage)
+
 </div>
+
+---
+
 
 
 
