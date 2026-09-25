@@ -46,21 +46,23 @@ The project implements lexical analysis and parsing for a simple programming lan
 ---
 
 
+
 ## 🏗️ Compiler Architecture
 
 Sea Compiler processes `.sea` source files through multiple compilation stages.
 
 ```mermaid
-flowchart TD
-    A[Source Code] --> B[Lexer]
-    B --> C[Tokens]
-    C --> D[Parser]
-    D --> E[AST]
-    E --> F[Semantic Checks]
-    F --> G[Output]
+flowchart LR
+    A["Source Code"] --> B["Lexer"]
+    B --> C["Tokens"]
+    C --> D["Parser"]
+    D --> E["AST"]
+    E --> F["Semantic Checks"]
+    F --> G["Output"]
 ```
 
 ---
+
 
 
 ### Lexical Analysis
