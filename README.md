@@ -38,7 +38,6 @@ graphical interface.
 - [Project Structure](#structure)
 - [Installation & Usage](#installation)
 - [Technologies](#technologies)
-- [About](#about)
 
 ---
 
@@ -322,19 +321,7 @@ The generated AST can also be explored in the graphical interface.
 
 ---
 
-<a id="about"></a>
-## 📌 About
 
-Sea Compiler is a university project developed for the
-**Compiler Design** course.
-
-The project aims to demonstrate the fundamental stages
-of compiler construction through a Java implementation.
-
-In addition to command-line execution, Sea Compiler Studio
-provides an interactive graphical interface that makes it
-easier to explore tokenization, parsing, AST generation,
-and arithmetic expression evaluation.
 
 ---
 
@@ -344,7 +331,10 @@ and arithmetic expression evaluation.
 
 *From source code to syntax trees.*
 
-Developed with Java.
+Developed by **[Nila Heydari](https://github.com/nilaheydari)**
 
 </div>
+
+</div>
+
 
