@@ -190,13 +190,81 @@ Sea-Compiler/
 
 
 
-## Running the Project
 
-1. Clone the repository.
-2. Open the project in IntelliJ IDEA or another Java IDE.
-3. Add or modify the source code inside `input.sea`.
-4. Run `Main.java` to perform lexical analysis and display the generated tokens.
-5. Run `ParserMain.java` to perform lexical analysis followed by parsing and semantic checks.
+## ⚙️ Installation & Usage
+
+### Prerequisites
+
+Before running the project, make sure you have:
+
+- Java JDK 17 or later
+- IntelliJ IDEA or another Java IDE
+- Git (optional)
+
+### 1. Clone the Repository
+
+Clone the project using Git:
+
+```bash
+git clone https://github.com/nilaheydari/Sea-Compiler.git
+```
+
+Open the `Sea-Compiler` folder in IntelliJ IDEA.
+
+### 2. Run Sea Compiler Studio
+
+For an interactive experience, run:
+
+`src/compiler/SeaCompilerGUI.java`
+
+The graphical interface allows you to:
+
+- Write and edit Sea source code.
+- Compile code using the **Compile** button.
+- Inspect generated tokens and their positions.
+- Visualize arithmetic expression ASTs.
+- View parsing output and expression evaluation results.
+
+### 3. Run the Command-Line Version
+
+The project also provides two command-line entry points.
+
+**Lexical Analysis**
+
+Edit `input.sea` and run:
+
+`src/compiler/Main.java`
+
+This displays the generated tokens.
+
+**Parsing and Semantic Analysis**
+
+Edit `input.sea` and run:
+
+`src/compiler/ParserMain.java`
+
+This performs lexical analysis, parsing, and basic semantic checks.
+
+### 4. Example
+
+Try the following code in Sea Compiler Studio:
+
+```text
+void main() begin
+    int result = (10 + 5) * (8 - 3);
+end
+```
+
+The compiler evaluates the arithmetic expression:
+
+```text
+EXPRESSION RESULT: 75
+```
+
+The generated AST can also be explored in the graphical interface.
+
+---
+
 
 ## Technologies
 
