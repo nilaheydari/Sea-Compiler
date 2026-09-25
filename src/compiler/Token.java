@@ -24,6 +24,14 @@ public class Token {
     public String getValue() {
         return value;
     }
+
+    public int getLine() {
+        return line;
+    }
+
+    public int getColumn() {
+        return column;
+    }
     @Override
     public String toString() {
 

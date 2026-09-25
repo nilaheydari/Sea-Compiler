@@ -8,6 +8,11 @@ public class NumberNode extends ASTNode {
         this.value = value;
     }
 
+    public String getValue() {
+        return value;
+    }
+
+
     @Override
     public void print(String indent) {
         System.out.println(indent + value);

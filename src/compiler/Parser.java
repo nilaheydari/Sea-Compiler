@@ -31,6 +31,11 @@ public class Parser {
         scopes.push(new java.util.HashSet<>());
         functions.add("print");
     }
+
+    public ASTNode getCurrentAST() {
+        return currentAST;
+    }
+
     public void parse() {
 
         while (!isAtEnd()) {

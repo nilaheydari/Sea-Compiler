@@ -15,6 +15,20 @@ public class BinaryOpNode extends ASTNode {
         this.right = right;
     }
 
+
+    public String getOperator() {
+        return operator;
+    }
+
+    public ASTNode getLeft() {
+        return left;
+    }
+
+    public ASTNode getRight() {
+        return right;
+    }
+
+
     @Override
     public void print(String indent) {
 
