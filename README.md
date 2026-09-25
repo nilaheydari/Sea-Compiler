@@ -323,8 +323,6 @@ The generated AST can also be explored in the graphical interface.
 
 
 
----
-
 <div align="center">
 
 **🌊 Sea Compiler**
