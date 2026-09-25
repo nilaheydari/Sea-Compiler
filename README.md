@@ -14,17 +14,6 @@
 
 <br>
 
-A compiler design project featuring **lexical analysis, parsing,  
-abstract syntax trees (ASTs), and basic semantic analysis.**
-
-Explore the compilation process through an interactive
-graphical interface.
-
-<br>
-
-[**Explore the Demo**](#demo) •
-[**Get Started**](#installation)
-</div>
 
 ---
 
@@ -319,20 +308,6 @@ The generated AST can also be explored in the graphical interface.
 - Basic Semantic Analysis
 - Graphical User Interface (Java Swing)
 
----
 
-
-
-<div align="center">
-
-**🌊 Sea Compiler**
-
-*From source code to syntax trees.*
-
-Developed by **[Nila Heydari](https://github.com/nilaheydari)**
-
-</div>
-
-</div>
 
 
